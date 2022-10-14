@@ -12,6 +12,8 @@ import BackImage from '../../Assets/Images/BackImage.png';
 import Save from '../../Assets/Images/Save.png';
 import Speaker from '../../Assets/Images/Speaker.png';
 import OpenBook from '../../Assets/Images/OpenBook.png';
+import Previous from '../../Assets/Images/Previous.png';
+import Next from '../../Assets/Images/Next.png';
 const SecondScreen = ({navigation}) => {
   const poetryArr = [
     `نقش فریادی ہے کس کی شوخیٔ تحریر کا \n کاغذی ہے پیرہن ہر پیکر تصویر کا `,
@@ -48,28 +50,73 @@ const SecondScreen = ({navigation}) => {
             </View>
           </View>
           <Text style={styles.numberText}>1</Text>
-          {poetryArr.map(e => {
-            return (
-              <>
-                <Text style={[styles.texts, styles.poetryText]}>{e}</Text>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}>
-                  <View style={styles.buttonsView}>
-                    <Text style={{color: 'black'}}>Roman</Text>
-                    <Image source={OpenBook}></Image>
+
+          {poetryArr.map((e, i) => {
+            if (i === 1) {
+              return (
+                <>
+                  <Text
+                    style={[
+                      styles.texts,
+                      styles.poetryText,
+                      {marginBottom: -5},
+                    ]}>
+                    {e}
+                  </Text>
+                  <View
+                    style={{
+                      flexDirection: 'row',
+                      alignSelf: 'stretch',
+                      justifyContent: 'space-between',
+                    }}>
+                    <Image
+                      source={Previous}
+                      style={{alignSelf: 'flex-start'}}></Image>
+                    <Image
+                      source={Next}
+                      style={{alignSelf: 'flex-end'}}></Image>
                   </View>
-                  <Image
-                    source={Speaker}
-                    style={{marginHorizontal: 10}}></Image>
-                  <View style={styles.buttonsView}>
-                    <Text style={{color: 'black'}}>Save</Text>
-                    <Image source={Save}></Image>
+                  <View
+                    style={{
+                      flexDirection: 'row',
+                    }}>
+                    <View style={styles.buttonsView}>
+                      <Text style={{color: 'black'}}>Roman</Text>
+                      <Image source={OpenBook}></Image>
+                    </View>
+                    <Image
+                      source={Speaker}
+                      style={{marginHorizontal: 10}}></Image>
+                    <View style={styles.buttonsView}>
+                      <Text style={{color: 'black'}}>Save</Text>
+                      <Image source={Save}></Image>
+                    </View>
                   </View>
-                </View>
-              </>
-            );
+                </>
+              );
+            } else {
+              return (
+                <>
+                  <Text style={[styles.texts, styles.poetryText]}>{e}</Text>
+                  <View
+                    style={{
+                      flexDirection: 'row',
+                    }}>
+                    <View style={styles.buttonsView}>
+                      <Text style={{color: 'black'}}>Roman</Text>
+                      <Image source={OpenBook}></Image>
+                    </View>
+                    <Image
+                      source={Speaker}
+                      style={{marginHorizontal: 10}}></Image>
+                    <View style={styles.buttonsView}>
+                      <Text style={{color: 'black'}}>Save</Text>
+                      <Image source={Save}></Image>
+                    </View>
+                  </View>
+                </>
+              );
+            }
           })}
           <Text style={styles.EnglishText}>Ghalib Academy,Karachi</Text>
         </View>
