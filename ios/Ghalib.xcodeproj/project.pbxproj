@@ -20,6 +20,7 @@
 		84C1BBF8C51C498C9BACF4A7 /* Stolzl-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6224852E51454A959BFF155E /* Stolzl-Regular.woff */; };
 		D21F4A2608144C239B146E4D /* Stolzl-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CC58642C26E246CBA0304161 /* Stolzl-Regular.woff2 */; };
 		85C6CAAD361E4068B1F87A28 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0E356DE19CF2452ABCCCC683 /* style.css */; };
+		69AF9DCEBB63499BB66DD426 /* jameel-noori-nastaleeq-italic-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75FDD7DACB964A2CBCDC4733 /* jameel-noori-nastaleeq-italic-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		6224852E51454A959BFF155E /* Stolzl-Regular.woff */ = {isa = PBXFileReference; name = "Stolzl-Regular.woff"; path = "../Assets/fonts/Stolzl-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CC58642C26E246CBA0304161 /* Stolzl-Regular.woff2 */ = {isa = PBXFileReference; name = "Stolzl-Regular.woff2"; path = "../Assets/fonts/Stolzl-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0E356DE19CF2452ABCCCC683 /* style.css */ = {isa = PBXFileReference; name = "style.css"; path = "../Assets/fonts/style.css"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75FDD7DACB964A2CBCDC4733 /* jameel-noori-nastaleeq-italic-1.ttf */ = {isa = PBXFileReference; name = "jameel-noori-nastaleeq-italic-1.ttf"; path = "../Assets/fonts/jameel-noori-nastaleeq-italic-1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				6224852E51454A959BFF155E /* Stolzl-Regular.woff */,
 				CC58642C26E246CBA0304161 /* Stolzl-Regular.woff2 */,
 				0E356DE19CF2452ABCCCC683 /* style.css */,
+				75FDD7DACB964A2CBCDC4733 /* jameel-noori-nastaleeq-italic-1.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				84C1BBF8C51C498C9BACF4A7 /* Stolzl-Regular.woff in Resources */,
 				D21F4A2608144C239B146E4D /* Stolzl-Regular.woff2 in Resources */,
 				85C6CAAD361E4068B1F87A28 /* style.css in Resources */,
+				69AF9DCEBB63499BB66DD426 /* jameel-noori-nastaleeq-italic-1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

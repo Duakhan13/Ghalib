@@ -17,17 +17,19 @@ const FirstScreen = ({navigation}) => {
             justifyContent: 'space-around',
           }}>
           <Text style={[styles.texts, {fontSize: 50}]}>دیوانِ غالب</Text>
-          <Pressable style={[styles.rectangels, {marginBottom: 8}]}>
+          <Pressable
+            style={[styles.rectangels, {marginBottom: 12}]}
+            onPress={() => navigation.navigate('Second')}>
             <Text style={[styles.texts, styles.buttonsFont]}>
               ReadDiwan-e-Ghalib
             </Text>
           </Pressable>
-          <Pressable style={[styles.rectangels, {marginBottom: 8}]}>
+          <Pressable style={[styles.rectangels, {marginBottom: 12}]}>
             <Text style={[styles.texts, styles.buttonsFont]}>
               BookmarketCouplets
             </Text>
           </Pressable>
-          <Pressable style={[styles.rectangels, {marginBottom: 8}]}>
+          <Pressable style={[styles.rectangels, {marginBottom: 12}]}>
             <Text style={[styles.texts, styles.buttonsFont]}>Instructions</Text>
           </Pressable>
           <Pressable style={styles.rectangels}>
@@ -73,8 +75,8 @@ const styles = StyleSheet.create({
   },
   EnglishText: {color: '#EFDA7D', fontSize: 15},
   poetryText: {
-    fontSize: 25,
-    fontFamily: 'Jameel Noori Nastaleeq',
+    fontSize: 30,
+    fontFamily: 'Jameel Noori Nastaleeq Regular',
   },
   openText: {
     fontFamily: 'Stolzl',
