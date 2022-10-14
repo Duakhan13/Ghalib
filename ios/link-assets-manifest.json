@@ -2,32 +2,28 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "Assets/Fonts/IranNastaliq.ttf",
+      "path": "Assets/fonts/IranNastaliq.ttf",
       "sha1": "5448cd4e21c6f914b8d68004293b2657bfa71843"
     },
     {
-      "path": "Assets/Fonts/Jameel Noori Nastaleeq Regular.ttf",
+      "path": "Assets/fonts/Jameel Noori Nastaleeq Regular.ttf",
       "sha1": "fe328332fcbfca1084de9c60169e41395a8044db"
     },
     {
-      "path": "Assets/Fonts/sharefonts.net.txt",
-      "sha1": "85bf45cf82ce60461ff5acb8f86b0df501090a8b"
-    },
-    {
-      "path": "Assets/Fonts/Stolzl-Regular.ttf",
+      "path": "Assets/fonts/Stolzl-Regular.ttf",
       "sha1": "3eb4351ac34adbe861629e50405dad93808b429e"
     },
     {
-      "path": "Assets/Fonts/Stolzl-Regular.woff",
+      "path": "Assets/fonts/Stolzl-Regular.woff",
       "sha1": "d603435de3ad060d13437e1914b905d5abe789c1"
     },
     {
-      "path": "Assets/Fonts/Stolzl-Regular.woff2",
+      "path": "Assets/fonts/Stolzl-Regular.woff2",
       "sha1": "cede4c225fc65061304820f00918a944c5cd4910"
     },
     {
-      "path": "Assets/Fonts/style.css",
-      "sha1": "42e806d6713bcd366a7a383215d6b51bddd4f74a"
+      "path": "Assets/fonts/style.css",
+      "sha1": "78eebf081717014dc6ddd0ad7c94ba582a0ffbf1"
     }
   ]
 }

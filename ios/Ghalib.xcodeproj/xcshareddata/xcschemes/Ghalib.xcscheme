@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "new_project.app"
-               BlueprintName = "new_project"
-               ReferencedContainer = "container:new_project.xcodeproj">
+               BuildableName = "Ghalib.app"
+               BlueprintName = "Ghalib"
+               ReferencedContainer = "container:Ghalib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "new_projectTests.xctest"
-               BlueprintName = "new_projectTests"
-               ReferencedContainer = "container:new_project.xcodeproj">
+               BuildableName = "GhalibTests.xctest"
+               BlueprintName = "GhalibTests"
+               ReferencedContainer = "container:Ghalib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "new_project.app"
-            BlueprintName = "new_project"
-            ReferencedContainer = "container:new_project.xcodeproj">
+            BuildableName = "Ghalib.app"
+            BlueprintName = "Ghalib"
+            ReferencedContainer = "container:Ghalib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "new_project.app"
-            BlueprintName = "new_project"
-            ReferencedContainer = "container:new_project.xcodeproj">
+            BuildableName = "Ghalib.app"
+            BlueprintName = "Ghalib"
+            ReferencedContainer = "container:Ghalib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
